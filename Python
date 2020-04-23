@@ -1,8 +1,8 @@
 from random import randint
 from time import sleep
-computador = randint(0, 1000000) #faz o computador pensar
+computador = randint(0, 10) #faz o computador pensar
 print('\033[1;33m-=-\033[m'*20)
-print('\033[1;34m vou pensar em um número entre 0 e 1000000, tente advinhar...\033[m')
+print('\033[1;34m vou pensar em um número entre 0 e 10, tente advinhar...\033[m')
 print('\033[1;33m-=-\033[m'*20)
 jogador = int(input("em que numero eu pensei? ")) #jogador tenta advinhar
 print("processando...")
